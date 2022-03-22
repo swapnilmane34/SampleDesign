@@ -6,10 +6,10 @@ output:
     number_sections: true
     toc: true
     fig_width: 7
-    fig_height: 4.5
+    fig_height: 9.5
     theme: cosmo
     highlight: tango
-    code_folding: hide
+    code_folding: show
 ---
 
 ```{r setup, include=FALSE, echo=FALSE}
@@ -20,10 +20,6 @@ References:
 
 - [Little book of R for time series](https://a-little-book-of-r-for-time-series.readthedocs.io/en/latest/src/timeseries.html)
 - [ARIMA Models](https://sites.google.com/site/econometricsacademy/econometrics-models/time-series-arima-models)
-
-# Load libraries and set global parameters
-```{r}
-packages =  c("ggplot2", "dplyr", "tidyr", "data.table", 'corrplot', 'gridExtra', 'forecast', 'tseries', 'TSA', 'tibble', 'TTR', 'xts', 'dygraphs', 'assertthat')
 
 my.install <- function(pkg, ...){
   if (!(pkg %in% installed.packages()[,1])) {

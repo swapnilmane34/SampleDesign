@@ -16,9 +16,6 @@ output:
 knitr::opts_chunk$set(echo=TRUE, error=FALSE)
 ```
 
-# Introduction
-This notebook provides a step-by-step guide for fitting an ARIMA model on the stock data, using R.
-
 References:
 
 - [Little book of R for time series](https://a-little-book-of-r-for-time-series.readthedocs.io/en/latest/src/timeseries.html)

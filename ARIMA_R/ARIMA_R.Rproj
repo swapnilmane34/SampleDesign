@@ -4,10 +4,9 @@ RestoreWorkspace: Default
 SaveWorkspace: Default
 AlwaysSaveHistory: Default
 
-EnableCodeIndexing: Yes
+EnableCodeIndexing: No
 UseSpacesForTab: Yes
-NumSpacesForTab: 2
+NumSpacesForTab: 0
 Encoding: UTF-8
-
 RnwWeave: Sweave
 LaTeX: pdfLaTeX

@@ -16,7 +16,6 @@ output:
 knitr::opts_chunk$set(echo=TRUE, error=FALSE)
 ```
 
-References:
 
 - [Little book of R for time series](https://a-little-book-of-r-for-time-series.readthedocs.io/en/latest/src/timeseries.html)
 - [ARIMA Models](https://sites.google.com/site/econometricsacademy/econometrics-models/time-series-arima-models)
